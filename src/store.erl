@@ -1,4 +1,6 @@
 -module(store).
+-behaviour(gen_store).
+
 -export([init/0,
          new/0,
          put/3,
